@@ -1,14 +1,14 @@
 # include<stdio.h>
 void main(){
-    float x;
+    int x;
     printf("Enter a number: ");
-    scanf("%f",&x);
+    scanf("%d",&x);
     if(x>0){
-        printf("%.3f is positive number. \n",x);
+        printf("%d is positive number. \n",x);
     }
     else if(x==0){
-    printf("%.3f is neutral.\n",x);
+    printf("%d is neutral.\n",x);
     }
     else
-     printf("%.3f is negative number. \n",x);
+     printf("%d is negative number. \n",x);
 }
